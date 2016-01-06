@@ -50,7 +50,7 @@ function SimplRssFetchFeed($url)
  */
 function SimplRssParse($xml, $limit = 10, $hide_description = 0, $hide_url = 0, $show_date = 0, $show_images = 1, $amount_of_words = 10)
 {
-    if (empty($xml)) return '<div style="background:#ffa1a1;color:#ff0000;">Unfortunaly, this xml/rss feed does not work correctly...</div>';
+    if (empty($xml)) return '<div style="background:#ffa1a1;color:#ff0000;">Unfortunately, this xml/rss feed does not work correctly...</div>';
 
     $return = '';
     $return .= "<ul class=\"wp-simple-rss-list\">";
